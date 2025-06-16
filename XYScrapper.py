@@ -193,7 +193,7 @@ spinners = [
 ]
 
 def main():
-    print("""
+    print(fr"""
         @@@   @@@@@@   @@@  @@@        @@@@@@   @@@  @@@@@@@@@@    @@@@@@    @@@@@@   
         @@@  @@@@@@@@  @@@@ @@@       @@@@@@@   @@@  @@@@@@@@@@@  @@@@@@@@  @@@@@@@@  
         @@!  @@!  @@@  @@!@!@@@       !@@       @@!  @@! @@! @@!  @@!  @@@  @@!  @@@  
@@ -239,7 +239,7 @@ def main():
     for i in range(1, 101):
         spinner = random.choice(spinners)
         progress = "#" * (i // 2)
-        sys.stdout.write(f"\rCarregando... [ {progress} ] {i}% completo")
+        sys.stdout.write(f"\r\033[92mCarregando...\033[0m [ {progress} ] {i}%")
         sys.stdout.flush()
         time.sleep(0.01) 
 
@@ -264,7 +264,7 @@ def main():
                 print(f"✅ Funcional: {proxy_type}://{proxy_addr} | Latência: {latency:.2f}s")
                 working_new_proxies.append((proxy_addr, proxy_type))
             else:
-                print(f"❌ {proxy_type} {proxy_addr} falhou.")
+                print(f"❌ Um proxy falhou.")
     
     # Combina proxies com os proxies que já existem
     all_working_proxies = working_existing_proxies + working_new_proxies
