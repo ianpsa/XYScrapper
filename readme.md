@@ -3,8 +3,7 @@
 por **Ian - ECHOSEC**  
 
 ---
-
-## **O que esta porcaria faz?**  
+  
 ### 🔥 **Scraper + Testador + Atualizador Automático de Proxies** 🔥  
 
 1. **Coleta proxies SOCKS4/SOCKS5** de múltiplas fontes públicas:
