@@ -4,7 +4,7 @@ por **Ian - ECHOSEC**
 
 ---
   
-### 🔥 **Scraper + Testador + Atualizador Automático de Proxies** 🔥  
+### **Scraper + Testador + Atualizador Automático de Proxies**  
 
 1. **Coleta proxies SOCKS4/SOCKS5** de múltiplas fontes públicas:
    - `socks-proxy.net`
@@ -27,7 +27,7 @@ por **Ian - ECHOSEC**
 
 ## **Passo-a-Passo para Executar**  
 
-### **⚠️ Requisitos**  
+### ** Requisitos**  
 - Python 3.x  
 - `sudo` access (para atualizar proxychains.conf)  
 - Pacotes:  
